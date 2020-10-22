@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "generate": "nuxt-ts generate",
+    "start": "nuxt-ts start",
+    "lint": "eslint --ext .ts,.js,.vue ."
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.14.7",
+    "@nuxt/typescript-build": "^2.0.3",
+    "@nuxtjs/eslint-config-typescript": "^4.0.0",
+    "@types/fibers": "^3.1.0",
+    "@types/sass": "^1.16.0",
+    "eslint": "^7.11.0",
+    "fibers": "^5.0.0",
+    "sass": "^1.27.0",
+    "sass-loader": "^10.0.3"
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^2.0.0",
+    "nuxt": "^2.14.7"
+  }
+}
